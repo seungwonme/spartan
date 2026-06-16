@@ -1,4 +1,5 @@
 ---
+argument-hint: "[lite | full | ultra | off]"
 name: spartan
 description: >
   Forces the laziest solution that actually works. Asks first, then builds the minimum.
