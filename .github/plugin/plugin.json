@@ -1,16 +1,15 @@
 {
-  "name": "ponytail",
-  "description": "Lazy senior dev mode. Forces the simplest, shortest solution that actually works: YAGNI, stdlib first, no unrequested abstractions.",
-  "version": "4.6.0",
+  "name": "spartan",
+  "description": "Think first. Build the minimum. Verify before done. YAGNI ladder + surgical changes + goal-driven execution.",
+  "version": "1.0.0",
   "author": {
-    "name": "Dietrich Gebert",
-    "url": "https://github.com/DietrichGebert"
+    "name": "Aiden Ahn",
+    "url": "https://github.com/seungwonme"
   },
-  "homepage": "https://github.com/DietrichGebert/ponytail",
-  "repository": "https://github.com/DietrichGebert/ponytail",
+  "homepage": "https://github.com/seungwonme/spartan",
+  "repository": "https://github.com/seungwonme/spartan",
   "license": "MIT",
-  "keywords": ["yagni", "minimalism", "code-review", "productivity"],
-  "commands": "commands/",
+  "keywords": ["yagni", "minimalism", "karpathy", "productivity"],
   "skills": "skills/",
-  "hooks": "hooks/copilot-hooks.json"
+  "hooks": "hooks/hooks.json"
 }
