@@ -14,7 +14,6 @@ Spartan is a personal fork of [Ponytail](https://github.com/DietrichGebert/ponyt
 
 - **[Ponytail](https://github.com/DietrichGebert/ponytail)** by [@DietrichGebert](https://github.com/DietrichGebert) — YAGNI ladder, intensity levels (lite/full/ultra), `spartan:` comment convention
 - **[Andrej Karpathy's coding guidelines](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/CLAUDE.md)** — think before coding (surface assumptions, push back), surgical changes (touch only what you must), goal-driven execution (define success criteria, loop until verified)
-- **[100X Claude Code principles](https://github.com/seungwonme)** — plan before non-trivial tasks, verify before marking done, demand elegance, autonomous bug fixing
 
 The result: an agent that asks first, builds the minimum, makes surgical edits, and proves it works before calling it done.
 
