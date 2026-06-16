@@ -1,31 +1,29 @@
 {
-  "name": "ponytail",
-  "version": "4.6.0",
-  "description": "Lazy senior dev mode. Forces the simplest, shortest solution that actually works: YAGNI, stdlib first, no unrequested abstractions.",
+  "name": "spartan",
+  "version": "1.0.0",
+  "description": "Think first. Build the minimum. Verify before done. YAGNI ladder + surgical changes + goal-driven execution.",
   "author": {
-    "name": "Dietrich Gebert",
-    "url": "https://github.com/DietrichGebert"
+    "name": "Aiden Ahn",
+    "url": "https://github.com/seungwonme"
   },
-  "homepage": "https://github.com/DietrichGebert/ponytail",
-  "repository": "https://github.com/DietrichGebert/ponytail",
+  "homepage": "https://github.com/seungwonme/spartan",
+  "repository": "https://github.com/seungwonme/spartan",
   "license": "MIT",
-  "keywords": ["yagni", "minimalism", "code-review", "productivity"],
+  "keywords": ["yagni", "minimalism", "karpathy", "productivity"],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Ponytail",
-    "shortDescription": "Lazy senior developer mode",
-    "longDescription": "Prefer YAGNI, the standard library, native platform features, and the smallest correct implementation.",
-    "developerName": "Dietrich Gebert",
+    "displayName": "Spartan",
+    "shortDescription": "Think first, build the minimum, verify before done",
+    "longDescription": "Ask before coding. YAGNI ladder. Surgical changes. Prove it works.",
+    "developerName": "Aiden Ahn",
     "category": "Productivity",
     "capabilities": ["Instructions", "Lifecycle hooks"],
-    "websiteURL": "https://github.com/DietrichGebert/ponytail",
+    "websiteURL": "https://github.com/seungwonme/spartan",
     "defaultPrompt": [
-      "Use Ponytail mode for this task.",
+      "Use Spartan mode for this task.",
       "Review this diff for over-engineering.",
       "Find the smallest correct implementation."
     ],
-    "brandColor": "#111111",
-    "composerIcon": "./assets/logo.png",
-    "logo": "./assets/logo.png"
+    "brandColor": "#111111"
   }
 }
