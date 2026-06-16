@@ -1,14 +1,10 @@
 {
-  "name": "ponytail",
-  "version": "0.1.0",
-  "description": "Lazy senior dev mode for AI agents. The best code is the code you never wrote.",
-  "keywords": ["pi-package", "pi", "skills", "ponytail"],
+  "name": "spartan",
+  "version": "1.0.0",
+  "description": "Think first. Build the minimum. Verify before done. Ponytail + Karpathy merged.",
+  "keywords": ["pi-package", "pi", "skills", "spartan"],
   "license": "MIT",
-  "scripts": {
-    "test": "node --test tests/*.test.js && npm test --prefix pi-extension"
-  },
   "pi": {
-    "extensions": ["./pi-extension/index.js"],
     "skills": ["./skills"]
   }
 }
