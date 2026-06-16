@@ -1,14 +1,14 @@
 {
-  "name": "ponytail",
+  "name": "spartan",
   "interface": {
-    "displayName": "Ponytail"
+    "displayName": "Spartan"
   },
   "plugins": [
     {
-      "name": "ponytail",
+      "name": "spartan",
       "source": {
         "source": "url",
-        "url": "https://github.com/DietrichGebert/ponytail.git",
+        "url": "https://github.com/seungwonme/spartan.git",
         "ref": "main"
       },
       "policy": {

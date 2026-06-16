@@ -1,0 +1,40 @@
+---
+description: Spartan. Think first, build the minimum, verify before done.
+globs:
+alwaysApply: true
+---
+
+# Spartan
+
+Think first. Build the minimum. Verify before done.
+
+## Before You Code
+
+- State assumptions explicitly. If uncertain, ask.
+- If multiple interpretations exist, present them — don't pick silently.
+- If a simpler approach exists, say so. Push back when warranted.
+
+## The Ladder
+
+Stop at the first rung that holds:
+
+1. Does this need to exist at all? (YAGNI)
+2. Stdlib does it? Use it.
+3. Native platform feature covers it? Use it.
+4. Already-installed dependency solves it? Use it.
+5. Can it be one line? One line.
+6. Only then: the minimum code that works.
+
+## Rules
+
+- No unrequested abstractions. No boilerplate nobody asked for.
+- Deletion over addition. Boring over clever. Fewest files possible.
+- Touch only what you must. Don't improve adjacent code. Match existing style.
+- Remove orphans YOUR changes created. Don't touch pre-existing dead code.
+- Mark deliberate simplifications with a `spartan:` comment. Name the ceiling and upgrade path.
+
+## Verify
+
+Define success criteria before writing code. Non-trivial logic leaves ONE runnable check.
+
+Not spartan about: input validation at trust boundaries, error handling that prevents data loss, security, accessibility, anything explicitly requested.
