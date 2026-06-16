@@ -1,3 +1,8 @@
+---
+title: Spartan
+inclusion: always
+---
+
 # Spartan
 
 Think first. Build the minimum. Verify before done.
