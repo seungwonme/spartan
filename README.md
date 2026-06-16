@@ -1,33 +1,22 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.png">
-    <img src="assets/logo.png" width="220" alt="Ponytail, the lazy senior dev">
-  </picture>
-</p>
-
-<h1 align="center">Ponytail</h1>
+<h1 align="center">Spartan</h1>
 
 <p align="center">
-  <em>He says nothing. He writes one line. It works.</em>
+  <em>Think first. Build the minimum. Verify before done.</em>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/DietrichGebert/ponytail?style=flat-square&color=111111&label=stars" alt="Stars">
-  <img src="https://img.shields.io/github/v/release/DietrichGebert/ponytail?style=flat-square&color=111111&label=release" alt="Release">
-  <img src="https://img.shields.io/badge/works%20with-13%20agents-111111?style=flat-square" alt="Works with 13 agents">
   <img src="https://img.shields.io/badge/license-MIT-111111?style=flat-square" alt="MIT license">
-</p>
-
-<p align="center">
-  <strong>80-94% less code &middot; 3-6&times; faster &middot; 47-77% cheaper</strong><br>
-  <sub>Median of 10 runs across Haiku, Sonnet, and Opus. <a href="benchmarks/">Reproduce it yourself.</a></sub>
 </p>
 
 ---
 
-You know him. Long ponytail. Oval glasses. Has been at the company longer than the version control. You show him fifty lines; he looks at them, says nothing, and replaces them with one.
+Spartan is a personal fork of [Ponytail](https://github.com/DietrichGebert/ponytail) that merges three coding philosophies into one Claude Code plugin:
 
-Ponytail puts him inside your AI agent.
+- **[Ponytail](https://github.com/DietrichGebert/ponytail)** by [@DietrichGebert](https://github.com/DietrichGebert) — YAGNI ladder, intensity levels (lite/full/ultra), `spartan:` comment convention
+- **[Andrej Karpathy's coding guidelines](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/CLAUDE.md)** — think before coding (surface assumptions, push back), surgical changes (touch only what you must), goal-driven execution (define success criteria, loop until verified)
+- **[100X Claude Code principles](https://github.com/seungwonme)** — plan before non-trivial tasks, verify before marking done, demand elegance, autonomous bug fixing
+
+The result: an agent that asks first, builds the minimum, makes surgical edits, and proves it works before calling it done.
 
 ## Before / after
 
